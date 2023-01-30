@@ -148,6 +148,49 @@ img.lazyloaded {
     transition: .3s;
 }
 
+/* cart */
+.site-nav-container-last {
+    padding-top: 40px;
+}
+
+.site-nav-container-last .title {
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 3px 0 0;
+    font-weight: 500;
+}
+
+.site-close-handle {
+    position: absolute;
+    top: 55px;
+    right: 18px;
+    width: 35px;
+    height: 35px;
+    z-index: 999;
+    background: 0 0;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+    -ms-transition: transform .15s linear;
+    -webkit-transition: transform .15s linear;
+    transition: transform .15s linear;
+}
+
+.textCartSide {
+    float: left;
+    width: 100%;
+    margin: 5px 0 0;
+    border-bottom: 1px dotted #bcbcbc;
+    padding: 0 0 15px;
+}
+
+.cart-view .line {
+    float: left;
+    width: 100%;
+    border-top: 2px solid #000;
+    margin: 10px 0;
+}
+
 @media (min-width: 769px) and (max-width: 1024px) {
     .container-fluid {
         padding: 0 15px;
