@@ -51,6 +51,7 @@ a {
     text-decoration: none;
     outline: none;
 }
+
 .icon-1-top {
     background-image: url(../images/phone-contact.png);
 }
@@ -70,6 +71,15 @@ a {
     float: left;
     background-size: cover;
 }
+.wrap-logo {
+    margin: 5px 0;
+}
+
+.wrap-logo img {
+    min-height: 23px;
+    max-height: 45px;
+}
+
 .top_bar_right {
     float: right;
 }
@@ -176,6 +186,10 @@ img.lazyloaded {
     transition: transform .15s linear;
 }
 
+
+#cartTotal {
+    width: 100%
+}
 .textCartSide {
     float: left;
     width: 100%;
@@ -189,6 +203,26 @@ img.lazyloaded {
     width: 100%;
     border-top: 2px solid #000;
     margin: 10px 0;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+#checkout {
+    padding: 10px 30px;
+    width: 100%;
+    white-space: nowrap;
+    float: left;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
