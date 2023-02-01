@@ -6,6 +6,8 @@
     box-sizing: border-box;
 }
 
+
+
 body {
     line-height: 1.4;
     font-size: 14px;
@@ -14,6 +16,13 @@ body {
     background: #fff;
     position: initial !important;
 }
+
+a {
+    color: #252a2b;
+    text-decoration: none !important;
+    outline: none;
+}
+
 
 #topbar {
     height: 30px;
@@ -43,13 +52,19 @@ ul {
 }
 
 ul li {
+    margin-left: 30px;
     display: inline;
 }
 
-a {
+li a {
     color: #252a2b;
     text-decoration: none;
     outline: none;
+}
+
+h5 a {
+    color: #252a2b;
+    line-height: 1.1;
 }
 
 .icon-1-top {
@@ -158,6 +173,20 @@ img.lazyloaded {
     transition: .3s;
 }
 
+.infoBannerHome {
+    text-align: center;
+}
+
+.viewMoreBanner {
+    border: 1px solid black;
+    padding: 5px 10px;
+    color: #000;
+    text-transform: uppercase;
+    display: inline-block;
+    text-decoration: none !important;
+    font-size: 13px;
+}
+
 /* cart */
 .site-nav-container-last {
     padding-top: 40px;
@@ -223,6 +252,13 @@ img.lazyloaded {
     text-align: center;
     text-transform: uppercase;
     font-weight: 700;
+}
+
+
+.bannerInfoAnchor {
+    color: #252a2b;
+    text-decoration: none;
+    outline: none;
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
