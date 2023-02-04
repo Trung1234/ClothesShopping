@@ -223,6 +223,24 @@ picture {
     background: #fff;
 }
 
+.product-detail {
+    padding: 0;
+}
+
+.product-detail .box-pro-detail {
+    z-index: 9;
+    width: 100%;
+    text-align: center;
+}
+
+.product-detail h3 {
+    margin: 0;
+    font-size: 14px;
+    position: relative;
+    font-weight: 400;
+    min-height: 20px;
+}
+
 /* Fade in Overlay */
 .overlay {
     position: absolute;
@@ -247,7 +265,14 @@ picture {
 
 .product-img:hover .overlay {
     opacity: 1;
-  }
+}
+
+p.pro-price {
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0;
+}
 
   /* look book */
 
