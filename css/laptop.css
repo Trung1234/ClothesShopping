@@ -14,6 +14,11 @@ h3 {
     font-size: 24px;
 }
 
+p {
+    margin: 0 0 10px;
+    line-height: 21px;
+}
+
 body {
     line-height: 1.4;
     font-size: 14px;
@@ -288,6 +293,14 @@ p.pro-price {
     text-transform: uppercase;
     font-size: 17px;
 }
+
+/* news */
+.news-desc {
+    margin-bottom: 15px;
+    max-height: 55px;
+    overflow: hidden;
+}
+
 
 /* cart */
 .site-nav-container-last {
