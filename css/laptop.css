@@ -290,9 +290,11 @@ p.pro-price {
 }
 
 .news-title {
+    color: #000;
     text-transform: uppercase;
     font-size: 17px;
 }
+
 
 /* news */
 .news-desc {
@@ -300,7 +302,120 @@ p.pro-price {
     max-height: 55px;
     overflow: hidden;
 }
+/* HomeStore section  */
+.innerHomeStore {
+    padding: 30px 0;
+    position: relative;
+}
 
+.contentHomeStore {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgStore {
+    margin: 15px 0;
+    width: 100%;
+}
+
+/* InfoFooter */
+#sectionInfoFooter .wrapper-new {
+    padding: 40px;
+    border-top: 1px solid #d0d0d0;
+}
+
+.innerInfoFooter {
+    margin: 0 -15px;
+}
+#sectionInfoFooter h4 {
+    font-size: 14px;
+}
+
+
+.iconFooter {
+    float: left;
+    width: 25px;
+    height: 25px;
+    background: #e52c25;
+    text-align: center;
+    color: #fff;
+    line-height: 25px;
+    border-radius: 100%;
+    margin-top: 4px;
+}
+
+.titleHotline a {
+    font-size: 27px;
+    color: #000;
+    padding: 0 0 0 15px;
+}
+
+
+.input-lg {
+    height: 46px;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+}
+
+
+.moreInfoFooter {
+    float: left;
+    width: 100%;
+    font-size: 11px;
+    margin: 5px 0 0;
+}
+
+.newsletter-form input[type=email] {
+    background-color: #fff;
+    height: 36px;
+    font-size: 15px;
+    color: #333;
+    outline: none;
+    box-shadow: none;
+    border-radius: 0;
+    border: 1px solid #d0d0d0;
+}
+
+.btn-newsletter {
+    position: absolute;
+    right: 0;
+    top: 0;
+    /* background: #000 !important; */
+    border: none;
+    color: #fff;
+    padding: 5px 10px;
+    height: 36px;
+}
+
+.navbar-social {
+    margin-left: -50px;
+}
+.navbar-social li {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+
+.fa-zalo {
+    background: rgba(0,0,0,0) url(/images/logo_zalo_vector_black_min.png) no-repeat scroll 0 0/cover;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    vertical-align: middle;
+}
+
+/* .navbar-social li .fa-zalo {
+    background: rgba(0,0,0,0) url(/tp/T0298/img/tmp/logo_zalo_vector_black_min.png) no-repeat scroll 0 0/cover;
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+} */
 
 /* cart */
 .site-nav-container-last {
