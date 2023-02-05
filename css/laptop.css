@@ -369,6 +369,10 @@ p.pro-price {
     margin: 5px 0 0;
 }
 
+.newsletter-form {
+    position: relative;
+}
+
 .newsletter-form input[type=email] {
     background-color: #fff;
     height: 36px;
@@ -384,7 +388,7 @@ p.pro-price {
     position: absolute;
     right: 0;
     top: 0;
-    /* background: #000 !important; */
+    background: #000;
     border: none;
     color: #fff;
     padding: 5px 10px;
@@ -400,9 +404,7 @@ p.pro-price {
     vertical-align: middle;
 }
 
-
-
-.fa-zalo {
+.navbar-social li .fa-zalo {
     background: rgba(0,0,0,0) url(/images/logo_zalo_vector_black_min.png) no-repeat scroll 0 0/cover;
     display: inline-block;
     height: 30px;
@@ -410,12 +412,42 @@ p.pro-price {
     vertical-align: middle;
 }
 
-/* .navbar-social li .fa-zalo {
-    background: rgba(0,0,0,0) url(/tp/T0298/img/tmp/logo_zalo_vector_black_min.png) no-repeat scroll 0 0/cover;
+.navbar-social li .fa-shoppee {
+    background: rgba(0,0,0,0) url(/images/shopee_black.png) no-repeat scroll 0 0/cover;
     display: inline-block;
-    height: 35px;
-    width: 35px;
-} */
+    height: 30px;
+    width: 30px;
+    vertical-align: middle;
+}
+
+/* footer */
+footer {
+    background: #f1f1f1;
+}
+
+#footerBottom h4 {
+    padding: 20px 0;
+    margin: 0;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.footer-content ul {
+    margin-bottom: 15px;
+}
+
+.footer-content ul li {
+    display: block;
+    line-height: 28px;
+    position: relative;
+    padding-left: 0;
+}
+
+#footerBottom .innerInfoFooter li {
+    float: left;
+    width: 100%;
+    margin: 0 0 5px;
+}
 
 /* cart */
 .site-nav-container-last {
