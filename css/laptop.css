@@ -343,6 +343,31 @@ picture {
   font-weight: 400;
   min-height: 20px;
 }
+/* product list */
+.actionLoop {
+  background: #000;
+  position: absolute;
+  bottom: -38px;
+  width: 100%;
+  left: 0;
+  /* opacity: 0;
+  visibility: hidden; */
+  transition: all .4s ease-in-out 0s;
+  /* -moz-transition: all .4s ease-in-out 0s;
+  -o-transition: all .4s ease-in-out 0s;
+  -webkit-transition: all .4s ease-in-out 0s;
+  -ms-transition: all .4s ease-in-out 0s; */
+  padding: 7px 0;
+  z-index: 9;
+}
+.actionLoop a {
+  float: left;
+  width: 50%;
+  color: #fff;
+  text-align: center;
+  padding: 3px 10px;
+  cursor: pointer;
+}
 
 /* Fade in Overlay */
 .overlay {
@@ -374,6 +399,17 @@ p.pro-price {
   font-size: 14px;
   font-weight: 700;
   margin: 0;
+}
+.actionLoop a {
+  font-size: 13px;
+}
+
+.quickView {
+  border-right: 1px solid #fff;
+}
+
+.visible-lg {
+  display: none!important;
 }
 
 /* look book */
@@ -616,7 +652,7 @@ footer {
   outline: none;
 }
 
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1124px) {
   .container-fluid {
     padding: 0 15px;
   }
@@ -636,4 +672,5 @@ footer {
   .product-img {
     min-height: 300px;
   }
+  
 }
