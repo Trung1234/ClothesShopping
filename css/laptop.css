@@ -145,7 +145,7 @@ h5 a {
 }
 
 .nav-item a {
-  padding: 9px 10px;
+  /* padding: 9px 10px; */
   white-space: nowrap;
   text-align: left;
   display: block;
@@ -167,7 +167,7 @@ h5 a {
   background-color: #f1f1f1;
   /* min-width: 160px; */
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 999;
+  z-index: 599;
   overflow: hidden;
 }
 
@@ -598,7 +598,7 @@ footer {
   right: 18px;
   width: 35px;
   height: 35px;
-  z-index: 999;
+  z-index: 99;
   background: 0 0;
   border: none;
   box-shadow: none;
