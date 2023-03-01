@@ -1,0 +1,25 @@
+HTML
+1. Xem chi tiết sản phẩm chưa làm. Phần này là hẳn 1 page html mới
+2. Thiếu icon zalo/ Facebook góc trái. Cái này có thể để position là fixed
+3. Thiếu icon về đầu trang ở góc phải. Cái này có thể để position là fixed
+4. Thiếu favicon
+5. Thiếu logo Krik ở phần menu của header
+6. Thiếu icon search trong ô tìm kiếm
+7. Số lượng item trong giỏ hàng khi không có gì sẽ có màu red
+8. Trong mỗi sản phẩm thiếu phần chọn màu
+9. Thiếu phần trang tin tức. Phần này là hẳn 1 page html mới
+10. Thiếu phần áo nam, quần nam, phụ kiện
+11. Thông tin liên hệ: phần theo dõi chúng tôi thiếu 2 icon
+JS
+1. Liên quan đến giỏ hàng cần có chức năng lưu danh sách sản phẩm vào localstorage để khi load lại thì danh sách sản phẩm trong giỏ hàng vẫn còn
+2. Khi xem chi tiết 1 sản phẩm xong thì sẽ xuất hiện 1 danh sách phía bên tay phải chứa danh sách 3-4 sản phẩm đã xem gần nhất
+CSS
+1. Menu ở phần header quá sơ sài, font chữ chưa giống, 
+2. Menu ở header chưa freeze khi scroll
+3. Khi hover vào 1 sản phẩm quần áo thì sẽ xuất hiện border và cusor sẽ thay đổi sang hình bàn tay
+4. Chưa remove default link color của thẻ a (gợi ý dùng text-decoration: none;)
+5. Responsive
+    1. Giao diện phần iPad đang thiếu menu, giao diện phần mobile thì không có phần menu
+    2. Bố cục wedsite chưa đúng cho phần iPad
+    3. Với kích thước màn hình lớn(>1920px) phần đổi trả trong vòng 5 ngày chưa căn giữa
+    4. Với kích thước màn hình lớn(>1920px) phần danh sách sản phẩm chưa Responsive theo đúng tỉ lệ
